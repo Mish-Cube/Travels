@@ -68,7 +68,7 @@ locations.forEach((loc, i) => {
     </audio>
   `;
 
-  L.marker(loc.coords).addTo(map).bindPopup(popupHTML, {
+  L.marker(loc.coords, {icon:cameraIcon}).addTo(map).bindPopup(popupHTML, {
     maxWidth: 900,
     minWidth: 600
   });

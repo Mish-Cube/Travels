@@ -57,7 +57,7 @@ locations.forEach((loc, i) => {
     <h2>${loc.name}</h2>
     <p>${loc.text}</p>
 
-    <div class="popup-slider" data-index="0" data-id="${i}">
+    <div class="popup-slider" data-id="${i}">
       <button class="prev">&#10094;</button>
       <img src="${loc.photos[0]}">
       <button class="next">&#10095;</button>
@@ -70,7 +70,8 @@ locations.forEach((loc, i) => {
 
   L.marker(loc.coords, {icon:cameraIcon}).addTo(map).bindPopup(popupHTML, {
     maxWidth: 900,
-    minWidth: 600
+    minWidth: 600,
+    className: "custom-popup"
   });
 });
 

@@ -36,6 +36,17 @@ var locations = [
     text: "London, that great cesspool into which all the loungers and idlers of the Empire are irresistibly drained. –Sir Arthur Conan Doyle"
   },
 
+  {
+    name: "Cambridge",
+    coords: [52.20225, 0.13144],
+    photos: [
+      "cambridge1.jpeg",
+      "cambridge2.png"
+    ],
+    audio: "cambridgevoice.mp3",
+    text: "Cambridge was a joy. Tediously. People reading books in a posh place. It was my fantasy. I loved it. I miss it still. –Zadie Smith"
+  }
+
 
   ];
 

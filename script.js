@@ -18,6 +18,8 @@ var cameraIcon = L.icon({
 });
 
 
+
+
 var london = `
 <h2>London</h2>
 <p>London, that great cesspool into which all the loungers and idlers of the Empire are irresistibly drained. –Sir Arthur Conan Doyle</p>
@@ -38,4 +40,8 @@ var london = `
 </audio>
 `;
 
-L.marker([51.5074, -0.1278]).addTo(map).bindPopup(london);
+L.marker([51.5074, -0.1278], { icon: cameraIcon })
+  .addTo(map)
+  .bindPopup(london, {
+    maxWidth: 900  // or whatever width you like
+  });

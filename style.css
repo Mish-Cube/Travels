@@ -12,18 +12,18 @@ img {
 
 .popup-gallery {
   display: flex;
-  overflow-x: auto;       /* horizontal scrolling */
-  overflow-y: hidden;     /* no vertical scroll */
+  overflow-x: auto;       
+  overflow-y: hidden;     
   gap: 10px;
   padding: 5px 0;
-  max-height: 400px;      /* fixed popup gallery height */
-  align-items: flex-start; /* align images to top */
+  height: 400px;       /* FIXED HEIGHT instead of max-height */
+  align-items: flex-start;
 }
 
 .popup-gallery img {
-  max-height: 100%;      /* limit image height to container */
-  width: auto;           /* preserve aspect ratio */
-  flex-shrink: 0;        /* prevent shrinking */
+  height: 100%;        /* fills container height */
+  width: auto;         
+  flex-shrink: 0;      
   border-radius: 5px;
-  object-fit: contain;    /* ensures image fits without cropping */
+  object-fit: contain; 
 }

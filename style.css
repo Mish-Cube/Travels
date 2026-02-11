@@ -2,6 +2,13 @@ html, body, #map {
   height: 100%;
   margin: 0;
 }
+#map {
+  height: 100%;
+  width: 100%;
+  background-image: url('images/pattern.png'); /* your tiling image */
+  background-repeat: repeat;                   /* tiles horizontally & vertically */
+  background-size: auto;                        /* keeps natural size, can use 'contain' or 'cover' */
+}
 .leaflet-popup-content {
   max-width: 300px;
 }

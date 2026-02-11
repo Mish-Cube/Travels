@@ -1,4 +1,10 @@
 var map = L.map('map').setView([20, 0], 2);
+var cameraIcon = L.icon({
+  iconUrl: 'icons.jpg',  
+  iconSize: [32, 32],     
+  iconAnchor: [16, 32],      
+  popupAnchor: [0, -32]      
+});
 
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
   attribution: '© OpenStreetMap'

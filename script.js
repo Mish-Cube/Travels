@@ -1,4 +1,15 @@
-var map = L.map('map').setView([20, 0], 2);
+var map = L.map('map', {
+  center: [20, 0], 
+  zoom: 2,     
+  minZoom: 2,     
+  maxZoom: 18,    
+  worldCopyJump: true 
+});
+
+L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+  attribution: '© OpenStreetMap'
+}).addTo(map);
+
 var cameraIcon = L.icon({
   iconUrl: 'icons.jpg',  
   iconSize: [32, 32],     
@@ -6,15 +17,7 @@ var cameraIcon = L.icon({
   popupAnchor: [0, -32]      
 });
 
-L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-  attribution: '© OpenStreetMap'
-}).addTo(map);
-map.setMaxBounds([
-  [-85, -180],
-  [85, 180]
-]);
 
-// Example location
 var london = `
 <h2>London</h2>
 <p>London, that great cesspool into which all the loungers and idlers of the Empire are irresistibly drained. –Sir Arthur Conan Doyle</p>

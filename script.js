@@ -1,7 +1,11 @@
 var map = L.map('map').setView([20, 0], 2);
 
-L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-  attribution: '© OpenStreetMap'
+L.tileLayer('https://stamen-tiles.a.ssl.fastly.net/terrain/{z}/{x}/{y}.jpg', {
+  attribution: 'Map tiles by Stamen Design, CC BY 3.0 — Map data © OpenStreetMap',
+  subdomains: 'abcd',
+  minZoom: 0,
+  maxZoom: 18,
+  noWrap: true
 }).addTo(map);
 
 // Example location

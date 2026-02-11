@@ -1,11 +1,10 @@
 var map = L.map('map').setView([20, 0], 2);
 
-L.tileLayer('https://stamen-tiles.a.ssl.fastly.net/terrain/{z}/{x}/{y}.jpg', {
-  attribution: 'Map tiles by Stamen Design, CC BY 3.0 — Map data © OpenStreetMap',
-  subdomains: 'abcd',
-  minZoom: 0,
-  maxZoom: 18,
-  noWrap: true
+L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png', {
+    attribution: '&copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/">CARTO</a>',
+    subdomains: 'abcd',
+    maxZoom: 19,
+    noWrap: true
 }).addTo(map);
 map.setMaxBounds([
   [-85, -180], // Southwest corner

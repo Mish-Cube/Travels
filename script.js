@@ -7,6 +7,10 @@ L.tileLayer('https://stamen-tiles.a.ssl.fastly.net/terrain/{z}/{x}/{y}.jpg', {
   maxZoom: 18,
   noWrap: true
 }).addTo(map);
+map.setMaxBounds([
+  [-85, -180], // Southwest corner
+  [85, 180]    // Northeast corner
+]);
 
 // Example location
 var london = `

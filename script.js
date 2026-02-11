@@ -11,7 +11,7 @@ map.setMaxBounds([
 // Example location
 var london = `
 <h2>London</h2>
-<p>The truth is, that in London it is always a sickly season. Nobody is healthy in London, nobody can be. –Jane Austen</p>
+<p>London, that great cesspool into which all the loungers and idlers of the Empire are irresistibly drained. –Sir Arthur Conan Doyle</p>
 
 <div class="popup-gallery">
     <img src="london1.jpg">

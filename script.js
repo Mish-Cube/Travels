@@ -11,7 +11,7 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 }).addTo(map);
 
 var cameraIcon = L.icon({
-  iconUrl: 'icons.jpg',  
+  iconUrl: 'icon.png',  
   iconSize: [32, 32],     
   iconAnchor: [16, 32],      
   popupAnchor: [0, -32]      

@@ -43,5 +43,6 @@ var london = `
 L.marker([51.5074, -0.1278], { icon: cameraIcon })
   .addTo(map)
   .bindPopup(london, {
-    maxWidth: 900  // or whatever width you like
+    maxWidth: 900,  // or whatever width you like
+    minWidth: 600
   });

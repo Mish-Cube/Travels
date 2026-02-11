@@ -17,9 +17,9 @@ var london = `
     <img src="london1.jpg">
     <img src="london2.jpg">
     <img src="london3.jpg">
-    <img src="london4.jpg">
-    <img src="london5.jpg">
-    <img src="london6.jpg">
+    <img src="london4.jpeg">
+    <img src="london5.jpeg">
+    <img src="london6.png">
     <img src="london7.jpg">
     <img src="london8.jpg">
 </div>

@@ -70,7 +70,6 @@ var locations = [
       "hunt3.jpeg",
       "hunt4.jpeg",
       "hunt5.jpeg",
-      "hunt6.jpeg",
       "hunt7.jpeg",
       "hunt8.jpg",
       "hunt9.jpg",

@@ -81,15 +81,41 @@ var locations = [
   },
 
   {
-    name: "India [2025]",
-    coords: [18.51926, 73.85542],
+    name: "India - Mumbai [2025]",
+    coords: [18.96113, 72.82143],
     photos: [
-      "india1.jpg",
       "india2.jpg",
       "india3.jpg",
       "india4.jpg",
       "india5.jpg",
-      "india6.jpg"
+      "india6.jpg",
+      "mumbai1.jpg",
+      "mumbai2.jpg",
+      "mumbai3.jpg",
+      "mumbai4.jpg",
+      "mumbai5.jpg",
+      "mumbai6.jpg",
+      "mumbai7.jpg",
+      "mumbai8.jpg",
+      "mumbai9.jpg",
+      "mumbai10.jpg",
+      "mumbai11.jpg",
+      "mumbai12.jpg",
+      "mumbai13.jpg"
+    ],
+    audio: "indiavoice.mp3",
+    text: "'Run away with me' 'And live on what?' 'Love.' - Slumdog Millionaire"
+  },
+  {
+    name: "India - Pune [2025]",
+    coords: [18.51926, 73.85542],
+    photos: [
+      "india1.jpg",
+      "pune1.jpg",
+      "pune2.jpg",
+      "pune3.jpg",
+      "pune4.jpg",
+      "pune5.jpg"
     ],
     audio: "indiavoice.mp3",
     text: "'To other countries, I may go as a tourist, but to India, I come as a pilgrim.' - Martin Luther King, Jr."

@@ -20,7 +20,7 @@ var cameraIcon = L.icon({
 
 var locations = [
   {
-    name: "London[2024-2025]",
+    name: "London [2024-2025]",
     coords: [51.5074, -0.1278],
     photos: [
       "london1.jpg",
@@ -103,8 +103,8 @@ var locations = [
       "mumbai12.jpg",
       "mumbai13.jpg"
     ],
-    audio: "indiavoice.mp3",
-    text: "'Run away with me' 'And live on what?' 'Love.' - Slumdog Millionaire"
+    audio: "mumbaivoice.mp3",
+    text: "''Run away with me.' 'And live on what?' 'Love.'' - Slumdog Millionaire"
   },
   {
     name: "India - Pune [2025]",
@@ -117,7 +117,7 @@ var locations = [
       "pune4.jpg",
       "pune5.jpg"
     ],
-    audio: "indiavoice.mp3",
+    audio: "punevoice.mp3",
     text: "'To other countries, I may go as a tourist, but to India, I come as a pilgrim.' - Martin Luther King, Jr."
   },
 

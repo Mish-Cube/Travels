@@ -178,8 +178,8 @@ var locations = [
   },
 
   {
-    name: "South [2025-2026]",
-    coords: [-43.62973, 169.94616],
+    name: "Aoraki [2025-2026]",
+    coords: [-44.81187, 168.10646],
     photos: [
       "south1.jpg",
       "south2.jpg",

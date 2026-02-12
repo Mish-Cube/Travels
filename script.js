@@ -122,7 +122,7 @@ var locations = [
   },
 
   {
-    name: "Nelson [2022]",
+    name: "Tasman [2022]",
     coords: [-40.85477, 173.00643],
     photos: [
       "nelson1.jpg",
@@ -135,7 +135,7 @@ var locations = [
   },
 
   {
-    name: "North Island [2022]",
+    name: "Waikato [2022]",
     coords: [-39.06308, 175.57243],
     photos: [
       "north1.jpg",

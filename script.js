@@ -212,13 +212,21 @@ map.on("popupopen", function(e) {
   var photos = locations[id].photos;
   var index = 0;
 
+  function changePhoto(newIndex) {
+    img.classList.add("fade-out");
+
+    setTimeout(() => {
+      index = newIndex;
+      img.src = photos[index];
+      img.classList.remove("fade-out");
+    }, 200); // half of CSS transition time
+  }
+
   prev.onclick = function() {
-    index = (index - 1 + photos.length) % photos.length;
-    img.src = photos[index];
+    changePhoto((index - 1 + photos.length) % photos.length);
   };
 
   next.onclick = function() {
-    index = (index + 1) % photos.length;
-    img.src = photos[index];
+    changePhoto((index + 1) % photos.length);
   };
 });

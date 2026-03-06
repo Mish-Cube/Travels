@@ -161,7 +161,18 @@ var locations = [
       "queen8.jpg",
       "queen9.jpeg",
       "queen10.jpeg",
-      "queen11.jpeg"
+      "queen11.jpeg",
+      "queen12.JPG",
+      "queen13.JPG",
+      "queen14.JPG",
+      "queen15.JPG",
+      "queen16.JPG",
+      "queen17.JPG",
+      "queen18.JPG",
+      "queen19.JPG",
+      "queen20.JPG",
+      "queen21.JPG",
+      "queen22.JPG"
     ],
     audio: "queenvoice.mp3",
     text: "'I'm just a nerdy kid from Queens. Do I deserve this?' - Spider Man"
